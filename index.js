@@ -80,7 +80,7 @@
  * })
  *
  */
-export default function(stateName, initialState, actions = {}) {
+module.exports = function(stateName, initialState, actions = {}) {
 
   const prefixedActions = {}
 
