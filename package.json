@@ -1,0 +1,24 @@
+{
+  "name": "jumpstore",
+  "version": "1.0.0",
+  "description": "A redux boilerplate saver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoreynolds/jumpstore.git"
+  },
+  "keywords": [
+    "redux",
+    "boilerplate",
+    "react"
+  ],
+  "author": "John Reynolds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaoreynolds/jumpstore/issues"
+  },
+  "homepage": "https://github.com/joaoreynolds/jumpstore#readme"
+}
