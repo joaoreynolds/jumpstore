@@ -1,4 +1,7 @@
 # jumpstore
+
+[![npm](https://img.shields.io/npm/v/jumpstore.svg)](https://www.npmjs.com/package/jumpstore)
+
 A redux boilerplate saver. Ever feel like sometimes your redux actions and reducers are unnecessarily verbose? While doing things as described in the [redux](http://redux.js.org/docs/basics/Reducers.html) docs makes the workings behind redux blatantly obvious, using this tiny module can cut down a LOT of code.
 
 ## Installation
