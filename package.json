@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/joaoreynolds/jumpstore/issues"
   },
-  "homepage": "https://github.com/joaoreynolds/jumpstore#readme"
+  "homepage": "https://github.com/joaoreynolds/jumpstore#readme",
+  "peerDependencies": {
+    "redux": "3.x"
+  }
 }
