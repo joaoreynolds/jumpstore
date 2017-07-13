@@ -1,6 +1,6 @@
 {
   "name": "jumpstore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A redux boilerplate saver",
   "main": "index.js",
   "scripts": {
