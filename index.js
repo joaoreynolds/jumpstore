@@ -92,7 +92,8 @@ module.exports = function(stateName, initialState, actions) {
    * @param  {object} action  typical reducer action. contains type and payload. This is, when run, the action is run to get the resulting state
    * @return {object}         new state object
    */
-  const reducerWithActions = (state = initialState, action) => {
+  const reducerWithActions = (state, action) => {
+    state = (typeof state !== 'undefined') ?  state : initialState
     if (!prefixedActions[action.type]) {
       return state
     }
