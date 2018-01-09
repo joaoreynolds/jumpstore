@@ -111,7 +111,7 @@ module.exports = function(stateName, initialState, actions) {
    * so you can call dispatch(reducerWithActions.actionName()) to dispatch an action.
    * @param  {array} actions
    */
-  Object.keys(actions).forEach((actionName) => {
+  Object.keys(actions || {}).forEach((actionName) => {
     /* alias the action to the state under the action name */
     reducerWithActions[actionName] = (payload) => {
       return {
