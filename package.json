@@ -1,6 +1,6 @@
 {
   "name": "jumpstore",
-  "version": "1.0.5",
+  "version": "1.0.4",
   "description": "A redux boilerplate saver",
   "main": "lib/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "presets": ["env"]
   },
   "peerDependencies": {
-    "redux": "3.x"
+    "redux": "3.x || 4.x"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
